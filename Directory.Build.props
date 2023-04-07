@@ -1,0 +1,9 @@
+<Project>
+ <PropertyGroup>
+ </PropertyGroup>
+ <ItemGroup Condition="'$(MSBuildProjectName)' == 'AppStoreConnect.Net'">
+    <Compile Include="$(MSBuildThisFileDirectory)/additions/*.cs" />
+    <PackageReference Include="JWT" Version="10.0.2" />
+  </ItemGroup>
+
+</Project>
