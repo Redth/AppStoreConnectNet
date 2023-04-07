@@ -1,0 +1,11 @@
+# AppStoreConnect.Net.Model.SubscriptionPromotionalOfferUpdateRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Data** | [**SubscriptionPromotionalOfferUpdateRequestData**](SubscriptionPromotionalOfferUpdateRequestData.md) |  | 
+**Included** | [**List&lt;SubscriptionPromotionalOfferPriceInlineCreate&gt;**](SubscriptionPromotionalOfferPriceInlineCreate.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

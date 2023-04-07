@@ -1,0 +1,10 @@
+# AppStoreConnect.Net.Model.PromotedPurchaseUpdateRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Data** | [**PromotedPurchaseUpdateRequestData**](PromotedPurchaseUpdateRequestData.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
