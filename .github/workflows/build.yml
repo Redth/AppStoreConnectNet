@@ -44,7 +44,7 @@ jobs:
 
         $pfxPath = Join-Path -Path $pwd -ChildPath "codesigncert.pfx"
         [IO.File]::WriteAllBytes("$pfxPath", [System.Convert]::FromBase64String($env:CODESIGN_PFX))
-        dotnet nuget sign .\artifacts\*.nupkg --certificate-path $pfxPath -Timestamper http://timestamp.entrust.net/TSS/RFC3161sha2TS
+        dotnet nuget sign .\artifacts\*.nupkg --certificate-path $pfxPath --timestamper http://timestamp.entrust.net/TSS/RFC3161sha2TS
         
     - name: Artifacts
       uses: actions/upload-artifact@v1
