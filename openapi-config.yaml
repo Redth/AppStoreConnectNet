@@ -1,0 +1,7 @@
+apiName: "AppStoreConnect"
+caseInsensitiveResponseHeaders: true
+library: "httpclient"
+netCoreProjectFile: true
+packageName: "AppStoreConnect.Net"
+targetFramework: "net6.0"
+useDateTimeOffset: true
