@@ -42,8 +42,14 @@ namespace AppStoreConnect.Model
         /// Enum MACOS for value: MAC_OS
         /// </summary>
         [EnumMember(Value = "MAC_OS")]
-        MACOS = 2
+        MACOS = 2,
 
-    }
+		/// <summary>
+		/// Enum MACOS for value: MAC_OS
+		/// </summary>
+		[EnumMember(Value = "UNIVERSAL")]
+		UNIVERSAL = 3,
+
+	}
 
 }
